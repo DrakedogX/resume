@@ -9,9 +9,8 @@ module.exports = {
       {name: 'blog', href: 'https://velog.io/@jojo_devstory'}
     ]
   },
-  introduction: `
-    대학에서 안드로이드 모바일을 전공하고 <br> 
-실무에서 B2B 솔루션 프로그램 개발 및 운영(안드로이드 모바일 / 데이터베이스 / 대규모 실시간 인터페이스 서버 구축 등)을 담당했습니다.<br />
+  introduce: `
+    대학에서 안드로이드 모바일을 전공하고 <br /> 실무에서 B2B 솔루션 프로그램 개발 및 운영(안드로이드 모바일 / 데이터베이스 / 대규모 실시간 인터페이스 서버 구축 등)을 담당했습니다. <br />
     `  ,
   contents: {
     'Skill Set': [

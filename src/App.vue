@@ -14,6 +14,10 @@
         </div>
       </section>
       <section class="section-detail-info flex flex-wrap col-12">
+        <section class="col-12 section-contents">
+          <record-title title="자기소개"></record-title>
+          <div v-html="contents.introduce"></div>
+        </section>
         <section class="col-12 section-contents" v-for="(value, key) in contents.summary" :key="value.id">
           <record-title :title="key"></record-title>
           <record-list :title="key" :lists="value"></record-list>
@@ -23,11 +27,11 @@
           <section v-for="(detailContent, key) in contents.detailContents" :key="detailContent.id">
             <h2>{{key}}</h2>
             <h5>{{detailContent.date}}</h5>
-            <div class="div-sub-title">
+            <div class="div-sub-title" v-if="detailContent.info">
               <h4>[회사 소개]</h4>
               <p>{{detailContent.info}}</p>
             </div>
-            <div class="div-sub-title">
+            <div class="div-sub-title" v-if="detailContent.service">
               <h4>[서비스]</h4>
               <p v-for="service in detailContent.service" :key="service.id" v-html="service"></p>
             </div>
