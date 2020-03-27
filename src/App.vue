@@ -70,7 +70,7 @@ export default {
       let career = ''
       if (year != 0) { career += year + '년 ' }
       if (month != 0) { career += month + '개월' }
-      return career + " 경력"
+      return "총 " + career + " 경력"
     },
     transformMailTo () {
       return `mailto:${this.contents.profile.email}`
