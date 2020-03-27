@@ -1,14 +1,18 @@
 module.exports = {
   profile: {
-    name: '김우현',
-    description: 'Front-end developer',
-    dateOfBirth: '1996.11.05',
-    email: 'dngus242@gmail.com',
+    name: '이동준',
+    description: 'Android Developer',
+    dateOfBirth: '1993.09.09',
+    email: 'dyc2000@naver.com',
     links: [
-      {name: 'github', href: 'https://github.com/KimWooHyun'},
-      {name: 'portfolio', href: 'https://kimwoohyun.github.io/portfolio/'}
+      {name: 'github', href: 'https://github.com/DrakedogX'},
+      {name: 'blog', href: 'https://velog.io/@jojo_devstory'}
     ]
   },
+  introduction: `
+    대학에서 안드로이드 모바일을 전공하고 <br> 
+실무에서 B2B 솔루션 프로그램 개발 및 운영(안드로이드 모바일 / 데이터베이스 / 대규모 실시간 인터페이스 서버 구축 등)을 담당했습니다.<br />
+    `  ,
   contents: {
     'Skill Set': [
       {
@@ -18,390 +22,363 @@ module.exports = {
       },
       {
         'date': 'Language',
-        'title': 'HTML5 / CSS3 / JavaScript / Typescript / Swift / Python',
+        'title': 'Kotlin / Java / C# / PL/SQL',
         'contents': ['']
       },
       {
-        'date': 'Framework',
-        'title': 'Vue.js / Nuxt.js / React / Django / Flask',
+        'date': 'Platform',
+        'title': 'Android Mobile / .Net Framework-DevExpress / Spring Framework',
+        'contents': ['']
+      },
+      {
+        'date': 'DBMS',
+        'title': 'DBMS Oracle, MySQL, SQLite',
         'contents': ['']
       },
       {
         'date': 'Library',
-        'title': 'Webpack / Less / Scss / Axios / Alamofire',
-        'contents': ['']
-      },
-      {
-        'date': 'Dependency Manager',
-        'title': 'cocoapods / npm / yarn / pip',
+        'title': 'ConstraintLayout / ButterKnife / ViewPagerIndicator / Gson / OkHttp / Retrofit / Glide / Firebase',
         'contents': ['']
       }
     ],
     '개인 프로젝트': [
       {
-        'date': '2017.07 - 현재',
-        'title': 'vue-lunar-calendar',
+        'date': '2020.01 - 현재',
+        'title': 'JoJoStagram',
         'contents': [
-          '- Vue.js component library',
-          '- <a href="https://github.com/KimWooHyun/vue-lunar-calendar">https://github.com/KimWooHyun/vue-lunar-calendar</a>',
-          '- 한국 음력 달력 라이브러리',
-          '- opensource',
-          '- 총 7명의 contributors, 6개의 언어'
-        ]
-      },
-      {
-        'date': '2017.08',
-        'title': 'WHLunarCalendar',
-        'contents': [
-          '- Swift library',
-          '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>',
-          '- 한국 음력 달력 라이브러리',
-          '- opensource'
+          '- Instagram Clone Application',
+          '- <a href="https://github.com/DrakedogX/JoJoStagram">https://github.com/DrakedogX/JoJoStagram</a>',
+          '- 코틀린 및 오픈소스 라이브러리를 공부하고자 만든 인스타그램 클론 안드로이드 앱 토이 프로젝트',
+          '- Kotlin / AndroidX 지원',
+          '- Firebase, Glide, Okhttp, Gson, Recycler View, Material Design, FaceBook SDK, Google Play-Services, Twitter SDK, '
         ]
       }
     ],
     '개인 활동': [
       {
-        'date': '2018.12',
-        'title': '[발표] 조금 일찍 시작한 사회 적응기',
+        'date': '2019.10',
+        'title': 'Automation Anywhere Advanced RPA Professional',
         'contents': [
-          'Django Girls 2018 하반기 밋업 발표',
-          '- 특성화고 출신으로 시작하여 4년차 개발자로서의 성장하기까지의 이야기 발표',
-          '- <a href="https://www.slideshare.net/ssuserd3aacb/ss-124649398">https://www.slideshare.net/ssuserd3aacb/ss-124649398</a>'
+          '- 발급처 : Automation Anywhere',
+          'Automation Anywhere사의 RPA(Robotic Process Automation) 플랫폼 대해 일정기간 스터디하고 고급 난이도의 시험을 통과하면 수료증 발급'
+        ]
+      },
+      {
+        'date': '2019.09',
+        'title': 'Automation Anywhere Partner Bootcamp 2019',
+        'contents': [
+          '실제 비즈니스 시나리오에 기반한 RPA 딜 사이징 기획 및 팀 별 과제 수행, Bot Champion 경합',
+          '도시가스 PC빌링 시스템 정산 업무 자동화 봇 개발, 2등 수상',
+          '- <a href="https://ko-kr.facebook.com/AutomationAnywhereKorea/posts/380201782892800">https://ko-kr.facebook.com/AutomationAnywhereKorea/posts/380201782892800</a>'
+        ]
+      },
+      {
+        'date': '2019.07',
+        'title': '네이버 테크 콘서트',
+        'contents': [
+          '웹 및 앱 개발 트렌드를 파악하기 위해 참가',
+          '- Android Studio 설정',
+          '- 20분 만에 만들어보는 라이브 방송 앱',
+          '- 네이버 지도 밑그림을 그리는 SDK 개발자가 하는 일',
+          '- 쉽고 재미있는 iOS 디버깅'
+        ]
+      },
+      {
+        'date': '2019.02',
+        'title': '서울 Flutter 스터디',
+        'contents': [
+          'Flutter 스터디에 참가하여 Flutter 기술 습득, 스터디 팀원 공유 및 발표'
         ]
       },
       {
         'date': '2018.11',
-        'title': '[발표] Be Creators',
+        'title': 'GDG DevFest Seoul 2018',
         'contents': [
-          'Women who code 서울 11월 밋업 발표',
-          '- 이직기와 개발자로서 현재 하고 있는일, 사내 문화들을 소개',
-          '- <a href="https://www.slideshare.net/ssuserd3aacb/be-creators">https://www.slideshare.net/ssuserd3aacb/be-creators</a>'
+          '구글 및 안드로이드 모바일 최신 오픈소스 라이브러리 현황 조사를 위해 참가',
+          '- Data Uni-Directional Architecture (데이터 단방향 구조) in Android',
+          '- 함수형 프로그래밍과 안드로이드 테스팅',
+          '- Flutter 101',
+          '- Android DataBinding for Modularization, ViewModel and Testing',
+          '- Android Oreo&Pie 업데이트하기'
         ]
       },
       {
-        'date': '2018.10',
-        'title': '[발표] "합시다. 회고."',
+        'date': '2018.09',
+        'title': '서울 Android Kotlin 스터디',
         'contents': [
-          'GDG Campus Korea Lightning Talk & Networking 발표',
-          '-  사내문화 중에 "회고"에 대한 내용 발표',
-          '- <a href="https://www.slideshare.net/ssuserd3aacb/ss-119212098">https://www.slideshare.net/ssuserd3aacb/ss-119212098</a>'
+          '직접 스터디를 만들어 인원 모집 후 5주간 스터디 팀원들과 함께 코틀린에 대해 공부하고 학습한 내용 공유'
         ]
       },
       {
-        'date': '2018.06',
-        'title': '[발표] 디자이너와 파티맺기',
+        'date': '2018.09',
+        'title': 'if kakao 카카오 개발자 컨퍼런스 2018',
         'contents': [
-          'Google Campus Korea 6월 밋업 발표',
-          '- 개발자와 디자이너간의 소통 그리고 업무 프로세스에 대한 발표',
-          '- <a href="https://www.slideshare.net/ssuserd3aacb/ss-100284832">https://www.slideshare.net/ssuserd3aacb/ss-100284832</a>'
-        ]
-      },
-      {
-        'date': '2018.02 - 2018.04',
-        'title': 'Women Techmakers KR 2018',
-        'img': '/pa/wtm-logo.png',
-        'contents': [
-          '<strong>Women Techmakers KR 2018 오거나이저</strong>',
-          '- 행사준비',
-          '- 안내사이트 제작',
-          '- <a href="https://wtm-korea-2018.firebaseapp.com/">https://wtm-korea-2018.firebaseapp.com/</a>'
-        ]
-      },
-      {
-        'date': '2017.08 - 2018.10',
-        'title': 'DjangoCon KR 2018',
-        'img': '/pa/djangocon-logo.png',
-        'contents': [
-          '<strong>DjangoCon KR 2018 오거나이저</strong>',
-          '- 행사준비',
-          '- 안내사이트 제작',
-          '- <a href="https://devdjangokr.github.io/2018/">https://devdjangokr.github.io/2018/</a>'
-        ]
-      },
-      {
-        'date': '2017.12',
-        'title': 'Do it! Vue.js',
-        'contents': [
-          'vue.js 관련 책 기술 검토 및 자문',
-          '서명: Do it! Vue.js 입문서',
-          '저자: 장기효',
-          '대상 독자: 프레임워크를 다뤄보지 않은 웹 개발 입문자, Vue.js를 배우고 싶은 대학생 & 퍼블리셔 & 실무자',
-          '책 내용: 프론트엔드 개발 프레임워크인 Vue.js 소개, 뷰 기술요소 학습, 뷰를 이용한 실전 애플리케이션 제작'
+          '자바와 코틀린 및 안드로이드 모바일 현황 조사를 위해 참가',
+          '- 텐서플로로 OCR 개발해보기: 문제점과 문제점과 문제점',
+          '- 카카오뱅크 모바일앱 개발 이야기',
+          '- 오픈소스를 사용하고, 준비하는 개발자를 위한 가이드',
+          '- 카카오톡의 서버사이드 코틀린',
+          '- 딥러닝을 활용한 뉴스 메타 태깅'
         ]
       },
       {
         'date': '2017.11',
-        'title': 'GDG DevFest',
+        'title': 'GDG DevFest Seoul 2017',
         'contents': [
-          'GDG DevFest 스태프',
-          '- 안내사이트 제작 참여',
-          '- <a href="https://devfest17-seoul.firebaseapp.com/">https://devfest17-seoul.firebaseapp.com/</a>'
+          '구글 및 안드로이드 모바일 최신 오픈소스 라이브러리 현황 조사를 위해 참가',
+          '- 단계별로 알아보는 안드로이드 앱의 코틀린 변환 절차',
+          '- MVC부터 MVVM, 단방향 데이터 흐름까지',
+          '- Android Things: 안드로이드 앱개발 기술을 이용해 쉽게 IoT device 만들기',
+          '- 좋은 코드를 고민하는 주니어 개발자들을 위한 안드로이드 디자인패턴'
         ]
       },
       {
-        'date': '2017.09',
-        'title': '9XD 해커톤',
+        'date': '2017.06',
+        'title': 'Atlassian 솔루션스 컨퍼런스',
         'contents': [
-          '9XD 해커톤 "내꺼만들기, 내꺼톤" 참가',
-          '- Vue.js 전파',
-          '- 팀 주제: 불만',
-          '- 본인의 불만을 말하고 피드백을 받을 수 있는 게시판 형태의 웹 서비스 "불만투고" 제작 및 배포'
+          '사내 업무 적용을 위해 JIRA 및 DevOps 강연 참가'
         ]
       },
       {
-        'date': '2017.08',
-        'title': '[발표] 원모먼트 Vue js 적용기',
+        'date': '2016.09',
+        'title': 'OKKY JSCON:16 자바스크립트 컨퍼런스',
         'contents': [
-          'GDG Web Tech 발표',
-          '- Vue.js 관련 발표',
-          '- <a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>'
+          '자바스크립트 업계 현황 조사 및 최신 트렌드를 업무에 적용하기 위해 참여 '
         ]
       },
       {
-        'date': '2017.07',
-        'title': 'GDG Campus Korea summer party',
+        'date': '2016.03',
+        'title': '클라우드컴퓨팅기반의 빅데이터 수집과 분석 및 시각화실무과정',
         'contents': [
-          'GDG Campus Korea 스태프',
-          '- 행사 준비',
-          '- 안내사이트 제작 참여',
-          '- <a href="https://gdgsummerparty.firebaseapp.com">https://gdgsummerparty.firebaseapp.com</a>'
+          '쌍용교육센터에서 진행한 R과 하둡을 이용한 빅데이터 시각화 교육'
+        ]
+      },
+      {
+        'date': '2016.1',
+        'title': '삼성전자(주) SCSC-C SW인재양성 프로그램',
+        'contents': [
+          '경남정보대학교와 삼성전자에서 진행하는 SW 인재양성 프로그램',
+          '삼성전자(주)에 연구보고서 제출 후 심사 통과시 수료증 발부',
+          '- 연구보고서 : Wearable Device, VR Device, SmartPhone의 상호작용'
+        ]
+      },
+      {
+        'date': '2015.05',
+        'title': '부산 안드로이드 앱 개발 포럼 11회',
+        'contents': [
+          '안드로이드 모바일 관련 강의 참여',
+          '- 안드로이드 보안 이슈 해결법',
+          '- 안드로이드 NDK 개발 현황',
+          '- <a href="http://androidstudy.co.kr/?p=1264">http://androidstudy.co.kr/?p=1264</a>'
+        ]
+      },
+      {
+        'date': '2015.04',
+        'title': '부산14기 Swift 앱개발 스터디',
+        'contents': [
+          '부산모바일앱센터에서 진행한 Swift 앱개발 스터디 참여',
+          '4주간 매주 금,토요일 진행하여 MySQL DB와 아이폰(개발언어 : Swift)을 이용해 간단한 커뮤니티 게시판 앱 개발',
+          '- <a href="http://androidstudy.co.kr/?p=1279">http://androidstudy.co.kr/?p=1279</a>'
+        ]
+      },
+      {
+        'date': '2016.03',
+        'title': '부산콘텐츠코리아랩 - 오픈소스를 활용한  콘텐츠제작',
+        'contents': [
+          '3D프린터와 아두이노(Python)를 이용한 하드웨어(MeArm) 제작',
+          '- <a href="http://winnersbusan.cafe24.com/archives/491">http://winnersbusan.cafe24.com/archives/491</a>'
         ]
       }
     ],
     '학력 사항': [
       {
-        'date': '2016 - 현재',
+        'date': '2018 - 현재',
         'title': '한국방송통신대학교',
         'contents': ['컴퓨터과학과 재학중']
       },
       {
-        'date': '2012 - 2015',
-        'title': '미림여자정보과학고등학교 (미림 마이스터고)',
-        'contents': ['인터랙티브 미디어과 졸업']
+        'date': '2012 - 2016',
+        'title': '경남정보대학교',
+        'contents': ['모바일콘텐츠과 - 안드로이드 모바일 전공, 졸업']
       }
     ]
   },
   summary: {
     '경력 요약': [
       {
-        'date': ['2018.04.23', '현재'],
-        'title': 'Spoqa (스포카)',
+        'date': ['2016.01', '2019.12'],
+        'title': '모바일엔트로피(주)',
         'contents': [
-          '주 - Front-end 개발',
-          '서브 - Swift, Android 개발',
-        ]
-      },
-      {
-        'date': ['2016.01.25', '2018.01.25'],
-        'title': 'ONE MOMENT (원모먼트)',
-        'contents': [
-          '주 - Front-end 개발',
-          '서브 - Swift, Django 개발',
-        ]
-      },
-      {
-        'date': ['2015.01.02', '2016.01.06'],
-        'title': 'ATEAM VENTURES (에이팀벤쳐스)',
-        'contents': [
-          '주 - Front-end 개발',
-          '서브 - Django, Flask 개발',
+          '- Android 어플리케이션 개발/유지보수',
+          '- .NetFramework/Devexpress 빌링시스템 개발/유지보수',
+          '- Oracle DB Pl/SQL 개발/유지보수',
         ]
       }
     ]
   },
   detailContents: {
-    'Spoqa (스포카)': {
-      'date': '2018.04.23 - 현재',
-      'info': '소상공인을 위한 포인트 적립 및 마케팅 솔루션을 제공하는 스타트업.',
-      'service': [
-        `Web<br /> 
-        - 회사 홈페이지: <a href="https://www.spoqa.com/">https://www.spoqa.com/</a><br/>
-        - 도도포인트 홈페이지: <a href="https://www.dodopoint.com/">https://www.dodopoint.com/</a>
-        `
-      ],
+    '모바일엔트로피(주)': {
+      'date': '2016.01 - 2019.12',
+      'info': '도시가스 및 에너지 산업용 B2B 솔루션 프로그램 개발/유지보수',
       'project': {
         'project': [
           {
-            'date': '2019.03 - ',
-            'title': 'Growth Hack',
+            'date': '2018.11 - 2019.10',
+            'title': '도시가스 계량기 A.I OCR 검침 엔진 개발',
             'contents': [
-              '메시지, 인바운드 그로쓰핵을 위한 프론트엔드 작업',
-              '- 작업 리스트 : 퀘스트 기능 정식 릴리즈',
-              'stack: React, Redux, Typescript, Scss'
+              '머신러닝 전문 업체 애자일소다(주)와 공동으로 도시가스용 OCR A.I 엔진 개발',
+              '도시가스 계량기 검침시 안드로이드 모바일 디바이스의 카메라를 이용해 계량기 숫자를 학습된 A.I가',
+              '분석 및 판단하여 결과 값 제공'
+              '엔진명 : Smart iMax Meter Reader',
+              '- 담당업무 : 클라이언트 및 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : Python(TensorFlow) / Kotlin(Android) / JAVA(Android, Spring Framework), PL/SQL',
+              '- DB : Oracle / Firebase',
+              '- OS : 클라이언트 (Android 9) / 서버 (Linux Ubuntu)',
+              '- 참여 인원 : 5명',
+              '- 업무 기여도 : 40%'
             ]
           },
           {
-            'date': '2019.01 - 2019.03',
-            'title': 'Inbound 스쿼드 오거나이저',
+            'date': '2019.07 - 2019.12',
+            'title': '대성에너지, 대성청정 카카오 서비스 개발 (RESTful API)',
             'contents': [
-              '리드 확보 및 재계약율 개선을 위한 그로쓰핵 스쿼드 오거나이징',
-              '- 작업 리스트 : 실무자 미팅 / 협의체 미팅 / 리더 미팅 / 프로덕트 매니징 / 리드 확보 기획안 작성 및 프로토타이핑 / inbound 리드 시트 개선안 기획 / 소개 리워드 기능 기획 및 프론트엔드 작업 / 퀘스트 기능 기획 및 프론트엔드 작업',
-              'stack: Python, Jinja2, React, Redux, Typescript, Scss'
+              '대성에너지, 대성청정 카카오 서비스(페이, 알림톡, 자가검침) 시스템 개발',
+              '- 담당업무 : 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : JAVA (Spring Framework), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 윈도우10',
+              '- 참여 인원 : 1명',
+              '- 업무 기여도 : 100%'
             ]
           },
           {
-            'date': '2018.07 - 2018.11',
-            'title': '손님용 모바일 페이지 배포',
+            'date': '2019.01 - 2019.10',
+            'title': '참빛도시가스 카카오 서비스 개발 (RESTful API)',
             'contents': [
-              '손님이 직접 회원 정보를 수정 할 수 있는 모바일 페이지 배포',
-              '- 작업 리스트 : 정보 확인 / 변경 / 휴대폰 변경 / 인증 번호 확인',
-              '- 기여도 : 50%, 프론트엔드 100% 기여',
-              'stack: React, Redux, Typescript, Scss'
+              '참빛도시가스 5개사(원주,속초,충주,영동,동해) 빌링시스템 연계 카카오 서비스 시스템 개발',
+              '- 담당업무 : 클라이언트 및 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : C#(.Net Framework/DevExpress)  / JAVA (Spring Framework), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 윈도우10',
+              '- 참여 인원 : 1명',
+              '- 업무 기여도 : 100%'
             ]
           },
           {
-            'date': '2018.05 - 2018.06',
-            'title': 'POS와 태블릿 연동 개선',
+            'date': '2018.11 - 2019.10',
+            'title': '9개 도시가스사 카카오 서비스 운영 유지보수 (RESTful API)',
             'contents': [
-              'POS와 태블릿을 SSE를 이용하여 연동할 수 있는 프로세스 개발',
-              '- 작업 리스트 : 태블릿에서 연동 코드 가져오기 / POS에서 연동코드 확인하기 / iOS, Android와 웹 연동을 위해 네이티브 코드 수정',
-              '- SSE(Server-Sent Events) 을 이용하여 연동 ping/pong',
-              '- 기여도 : 25%, 프론트엔드 100% 기여',
-              'stack: React, Redux, Typescript, Scss'
-            ]
-          },
-        ]
-      }
-    },
-    'ONE MOMENT (원모먼트)': {
-      'date': '2016.01.25 - 2018.01.25',
-      'info': '90분 당일 꽃배달 서비스 “원모먼트 플라워” 를 서비스 중인 스타트업.',
-      'service': [
-        'Web<br /> - <a href="https://1moment.co.kr/">https://1moment.co.kr/</a> <br /> - 현재 Vue.js (SPA)로 개발된 사이트<br /><br />',
-        'iOS App<br /> - 현재 iOS는 내려간 상태'
-      ],
-      'project': {
-        'project': [
-          {
-            'date': '2017.10 - 2018.01',
-            'title': 'Nuxt.js 도입 및 SSR 지원',
-            'contents': [
-              '원모먼트 서비스 사이트 전체 리뉴얼',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 주문 / 주문 확인 / 마이페이지 - 기념일 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 적립금  / 마이페이지 - 간편결제 카드 관리 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
-              `,
-              '- Nuxt.js 도입 및 SSR 지원',
-              '- css 프레임워크 제거 및 LESS 도입',
-              '- 그리드 시스템 개발',
-              '- 시멘틱 웹 표준 준수',
-              '- axios 를 활용한 api call',
-              '- PM2, ecosystem을 이용한 배포 자동화',
-              '- 기여도 : 100%, 단독진행',
-              'stack: Vue.js, Nuxt.js, Less'
+              '각 도시가스사 카카오 서비스(페이, 알림톡, 자가검침) 유지보수',
+              '- 담당업무 : 클라이언트 및 인터페이스 서버 유지보수  / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : C#(.Net Framework/DevExpress)  / JAVA (Spring Framework), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 윈도우10',
+              '- 참여 인원 : 1명',
+              '- 업무 기여도 : 100%'
             ]
           },
           {
-            'date': '2017.02 - 2017.03',
-            'title': 'Vue.js 도입',
+            'date': '2018.11 - 2019.01',
+            'title': '미래앤서해에너지 카카오알림톡 개발',
             'contents': [
-              '원모먼트 서비스 사이트 전체 리뉴얼',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 적립금 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
-              `,
-              '- Vue.js (SPA) 도입',
-              '- 비동기 처리를 이용한 서비스 속도 개선',
-              '- vue-resource 를 활용한 api call',
-              '- 기여도 : 45%',
-              'stack: Vue.js, Bootstrap 4, Bootstrap 3, jQuery'
+              '미래앤서해에너지 카카오 알림톡 인터페이스 개발',
+              '- 담당업무 : 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : JAVA (Spring Framework), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 모바일 (안드로이드 5.0) / 서버 (윈도우10)',
+              '- 참여 인원 : 1명',
+              '- 업무 기여도 : 100%'
             ]
           },
           {
-            'date': '2016.06 - 2017.11',
-            'title': 'iOS App 런칭',
+            'date': '2018.01 - 2018.10',
+            'title': 'JB CORP(중부도시가스) 모바일 현장지원 시스템 구축',
             'contents': [
-              'iOS App 런칭',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
-              `,
-              '- Auto Layout을 이용한 반응형 앱 개발',
-              '- iTunes Connect 배포 및 버전 관리',
-              '- cocoapods 를 활용한 라이브러리 디펜던시 관리',
-              '- alamofire 를 활용한 api call',
-              '- 기여도 : 100%, 단독진행',
-              'stack: Swift, cocoapods'
+              '중부도시가스 현장직원이 사용하는 안드로이드 현장지원 시스템 개발',
+              '- 담당업무 : 클라이언트 및 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : JavaScript(Android) / JAVA (Android, Spring Framework), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 모바일 (안드로이드 5.0) / 서버 (윈도우10)',
+              '- 참여 인원 : 10명',
+              '- 업무 기여도 : 45%'
             ]
           },
           {
-            'date': '2016.01 - 2016.03',
-            'title': '관리자 페이지',
+            'date': '2017.01 - 2017.05',
+            'title': '참빛도시가스 빌링시스템 유지보수',
             'contents': [
-              '원모먼트 서비스 관리자 페이지 제작 및 유지보수',
-              `
-              - 작업 리스트 : 
-              퀵사 연동 / 주문 내역 (운영팀/플라워팀) / 퀵 주문 내역 / 주문 리포트 / 기념일 리포트 / 기획전 생성 페이지
-              `,
-              '- Django template을 이용한 front-end 개발',
-              '- 기여도 : 30%',
-              'stack: Django'
+              '참빛도시가스 5개사(원주,속초,충주,영동,동해) 빌링시스템 유지보수',
+              '- 담당업무 :  클라이언트 결제 서비스 연계 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 윈도우7',
+              '- 참여 인원 : 2명',
+              '- 업무 기여도 : 40%'
             ]
           },
           {
-            'date': '2016.01 - 2016.03',
-            'title': '웹 서비스 런칭',
+            'date': '2017.01 - 2017.03',
+            'title': '목포도시가스 LGCNS MPOST 청구서 결제 인터페이스 개발 (RESTful API)',
             'contents': [
-              '원모먼트 서비스 런칭',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 회사소개
-              `,
-              '- Django template을 이용한 front-end 개발',
-              '- 기여도 : 100%, 단독진행',
-              'stack: HTML5, CSS3, JavaScript, jQuery, Django'
-            ]
-          }
-        ]
-      }
-    },
-    'ATEAM VENTURES (에이팀벤쳐스)': {
-      'date': '2015.01.02 - 2016.01.06',
-      'info': '3D Printer 공유 플랫폼 사이트 “ShapEngine” 을 서비스 중인 스타트업.',
-      'service': [
-        `Web<br />
-        <span style="font-weight:bold">shapEngine</span><br />
-        - 3D Printer를 보유한 사람과 3D Modeling 도면을 보유한 사람을 매칭해 주는 중개 플랫폼<br />
-        - 현재 '<a href="https://creatable.com/">https://creatable.com/</a>'으로 변경<br /><br />
-        <span style="font-weight:bold">creatable labs</span><br />
-        - 자사 3D Printer 인 creatable 시리즈 판매 사이트<br />
-        - <a href="https://creatablelabs.com/">https://creatablelabs.com/</a>`
-      ],
-      'project': {
-        'project': [
-          {
-            'date': '2015.07 - 2016.01',
-            'title': 'shapEngine 웹 서비스 리뉴얼',
-            'contents': [
-              'shapEngine 웹 서비스 리뉴얼',
-              '- 작업 리스트 : 메인 / 프린터 등록 / 채팅 ',
-              '- Django로 리팩토링',
-              '- 기여도 : 25%',
-              'stack: Django, Jinja2, HTML5, CSS3, JavaScript'
+              'LGCNS의 공과금 청구서결제 서비스 플랫폼인 MPOST의 목포도시가스 인터페이스 서버 개발',
+              '- 담당업무 :  클라이언트 결제 서비스 연계 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 윈도우10',
+              '- 참여 인원 : 1명',
+              '- 업무 기여도 : 100%'
             ]
           },
           {
-            'date': '2015.06 - 2015.06',
-            'title': 'creatable labs 웹 서비스 제작',
+            'date': '2016.05 - 2017.05',
+            'title': '참빛도시가스 빌링시스템 유지보수',
             'contents': [
-              'creatable labs 웹 서비스 제작',
-              '- 작업 리스트 : 블로그 페이지 제작',
-              '- 워드프레스로 제작',
-              '- 기여도 : 10%',
-              'stack: HTML5, CSS3'
+              '목포도시가스 현장직원이 사용하는 안드로이드 모바일 시스템 유지보수',
+              '- 담당업무 :  클라이언트 유지보수 / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : JAVA(Android), PL/SQL',
+              '- DB : Oracle',
+              '- OS : Android 4.4',
+              '- 참여 인원 : 1명',
+              '- 업무 기여도 : 100%'
             ]
           },
           {
-            'date': '2014.12 - 2015.06<br/>(인턴 2개월)',
-            'title': 'shapEngine 웹 서비스 제작',
+            'date': '2016.03 - 2016.05',
+            'title': '참빛도시가스 빌링시스템 유지보수',
             'contents': [
-              'shapEngine 웹 서비스 제작',
-              '- 작업 리스트 : 메인 / 프린터 등록 / 채팅',
-              '- 3D Printer 를 보유 한 사람이 프린터를 등록 할 수 있는 프로세스 개발',
-              '- Jinja2을 이용한 front-end 개발',
-              '- 기여도 : 25%',
-              'stack: Flask, Jinja2, HTML5, CSS3, JavaScript'
+              'GSE도시가스 빌링시스템 유지보수',
+              '- 담당업무 :  클라이언트 유지보수 / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 도우7 / 윈도우10',
+              '- 참여 인원 : 2명',
+              '- 업무 기여도 : 30%'
+            ]
+          },
+          {
+            'date': '2016.01 - 2019.12',
+            'title': '목포도시가스 빌링시스템 유지보수',
+            'contents': [
+              '목포도시가스 빌링시스템 및 웹 온라인 요금결제 시스템 운영/유지보수',
+              '- 담당업무 :  클라이언트 유지보수 / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 도우7 / 윈도우10',
+              '- 참여 인원 : 2명',
+              '- 업무 기여도 : 90%'
+            ]
+          },
+          {
+            'date': '2016.01 - 2016.12',
+            'title': '목포도시가스 빌링시스템 고도화',
+            'contents': [
+              '목포도시가스 구 빌링시스템 고도화 및 웹 온라인 요금결제 시스템 구축 ',
+              '- 담당업무 :  클라이언트 개발 / 오라클 패키지 개발 / 단위테스트 및 배포',
+              '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
+              '- DB : Oracle',
+              '- OS : 도우7 / 윈도우10',
+              '- 참여 인원 : 10명',
+              '- 업무 기여도 : 75%'
             ]
           }
         ]
