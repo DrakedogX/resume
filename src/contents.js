@@ -10,7 +10,7 @@ module.exports = {
     ]
   },
   introduce: `
-    대학에서 안드로이드 모바일을 전공하고 <br /> 실무에서 B2B 솔루션 프로그램 개발 및 운영(안드로이드 모바일 / 데이터베이스 / 대규모 실시간 인터페이스 서버 구축 등)을 담당했습니다. <br />
+    대학에서 안드로이드 모바일을 전공하고 <br /> 실무에서 B2B 솔루션 프로그램 개발 및 운영(안드로이드 모바일 / 데이터베이스 / 대규모 실시간 인터페이스 서버 구축 / VAN•PG사 결제 서비스 인터페이스 개발 등)을 담당했습니다. <br />
     `  ,
   contents: {
     'Skill Set': [
@@ -31,7 +31,7 @@ module.exports = {
       },
       {
         'date': 'DBMS',
-        'title': 'DBMS Oracle, MySQL, SQLite',
+        'title': 'Oracle, MySQL, SQLite',
         'contents': ['']
       },
       {
@@ -226,9 +226,9 @@ module.exports = {
             'title': '도시가스 계량기 A.I OCR 검침 엔진 개발',
             'contents': [
               '머신러닝 전문 업체 애자일소다(주)와 공동으로 도시가스용 OCR A.I 엔진 개발',
-              '도시가스 계량기 검침시 안드로이드 모바일 디바이스의 카메라를 이용해 계량기 숫자를 학습된 A.I가',
-              '분석 및 판단하여 결과 값 제공',
+              '도시가스 계량기 검침시 안드로이드 모바일 디바이스의 카메라를 이용해 계량기 숫자를 학습된 A.I가 분석 및 판단하여 결과 값 제공',
               '엔진명 : Smart iMax Meter Reader',
+              '',
               '- 담당업무 : 클라이언트 및 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : Python(TensorFlow) / Kotlin(Android) / JAVA(Android, Spring Framework), PL/SQL',
               '- DB : Oracle / Firebase',
@@ -242,6 +242,7 @@ module.exports = {
             'title': '대성에너지, 대성청정 카카오 서비스 개발 (RESTful API)',
             'contents': [
               '대성에너지, 대성청정 카카오 서비스(페이, 알림톡, 자가검침) 시스템 개발',
+              '',
               '- 담당업무 : 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : JAVA (Spring Framework), PL/SQL',
               '- DB : Oracle',
@@ -255,6 +256,7 @@ module.exports = {
             'title': '참빛도시가스 카카오 서비스 개발 (RESTful API)',
             'contents': [
               '참빛도시가스 5개사(원주,속초,충주,영동,동해) 빌링시스템 연계 카카오 서비스 시스템 개발',
+              '',
               '- 담당업무 : 클라이언트 및 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : C#(.Net Framework/DevExpress)  / JAVA (Spring Framework), PL/SQL',
               '- DB : Oracle',
@@ -268,6 +270,7 @@ module.exports = {
             'title': '9개 도시가스사 카카오 서비스 운영 유지보수 (RESTful API)',
             'contents': [
               '각 도시가스사 카카오 서비스(페이, 알림톡, 자가검침) 유지보수',
+              '',
               '- 담당업무 : 클라이언트 및 인터페이스 서버 유지보수  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : C#(.Net Framework/DevExpress)  / JAVA (Spring Framework), PL/SQL',
               '- DB : Oracle',
@@ -281,6 +284,7 @@ module.exports = {
             'title': '미래앤서해에너지 카카오알림톡 개발',
             'contents': [
               '미래앤서해에너지 카카오 알림톡 인터페이스 개발',
+              '',
               '- 담당업무 : 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : JAVA (Spring Framework), PL/SQL',
               '- DB : Oracle',
@@ -294,6 +298,7 @@ module.exports = {
             'title': 'JB CORP(중부도시가스) 모바일 현장지원 시스템 구축',
             'contents': [
               '중부도시가스 현장직원이 사용하는 안드로이드 현장지원 시스템 개발',
+              '',
               '- 담당업무 : 클라이언트 및 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : JavaScript(Android) / JAVA (Android, Spring Framework), PL/SQL',
               '- DB : Oracle',
@@ -307,6 +312,7 @@ module.exports = {
             'title': '참빛도시가스 빌링시스템 유지보수',
             'contents': [
               '참빛도시가스 5개사(원주,속초,충주,영동,동해) 빌링시스템 유지보수',
+              '',
               '- 담당업무 :  클라이언트 결제 서비스 연계 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
               '- DB : Oracle',
@@ -320,6 +326,7 @@ module.exports = {
             'title': '목포도시가스 LGCNS MPOST 청구서 결제 인터페이스 개발 (RESTful API)',
             'contents': [
               'LGCNS의 공과금 청구서결제 서비스 플랫폼인 MPOST의 목포도시가스 인터페이스 서버 개발',
+              '',
               '- 담당업무 :  클라이언트 결제 서비스 연계 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
               '- DB : Oracle',
@@ -333,6 +340,7 @@ module.exports = {
             'title': '참빛도시가스 빌링시스템 유지보수',
             'contents': [
               '목포도시가스 현장직원이 사용하는 안드로이드 모바일 시스템 유지보수',
+              '',
               '- 담당업무 :  클라이언트 유지보수 / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : JAVA(Android), PL/SQL',
               '- DB : Oracle',
@@ -346,6 +354,7 @@ module.exports = {
             'title': '참빛도시가스 빌링시스템 유지보수',
             'contents': [
               'GSE도시가스 빌링시스템 유지보수',
+              '',
               '- 담당업무 :  클라이언트 유지보수 / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
               '- DB : Oracle',
@@ -359,6 +368,7 @@ module.exports = {
             'title': '목포도시가스 빌링시스템 유지보수',
             'contents': [
               '목포도시가스 빌링시스템 및 웹 온라인 요금결제 시스템 운영/유지보수',
+              '',
               '- 담당업무 :  클라이언트 유지보수 / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
               '- DB : Oracle',
@@ -372,6 +382,7 @@ module.exports = {
             'title': '목포도시가스 빌링시스템 고도화',
             'contents': [
               '목포도시가스 구 빌링시스템 고도화 및 웹 온라인 요금결제 시스템 구축 ',
+              '',
               '- 담당업무 :  클라이언트 개발 / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : C#(.Net Framework/DevExpress), PL/SQL',
               '- DB : Oracle',
