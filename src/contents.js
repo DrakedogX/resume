@@ -227,7 +227,7 @@ module.exports = {
             'contents': [
               '머신러닝 전문 업체 애자일소다(주)와 공동으로 도시가스용 OCR A.I 엔진 개발',
               '도시가스 계량기 검침시 안드로이드 모바일 디바이스의 카메라를 이용해 계량기 숫자를 학습된 A.I가 분석 및 판단하여 결과 값 제공',
-              '- 엔진명 : Smart iMax Meter Reader',
+              '❖엔진명 : Smart iMax Meter Reader',
               '<br />',
               '- 담당업무 : 클라이언트 및 인터페이스 서버 개발  / 오라클 패키지 개발 / 단위테스트 및 배포',
               '- 개발언어 : Python(TensorFlow) / Kotlin(Android) / JAVA(Android, Spring Framework), PL/SQL',
