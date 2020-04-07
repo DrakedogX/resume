@@ -210,7 +210,7 @@ module.exports = {
         'contents': [
           '- Android 어플리케이션 개발/유지보수',
           '- .NetFramework/Devexpress 빌링시스템 개발/유지보수',
-          '- Oracle DB Pl/SQL 개발/유지보수',
+          '- Oracle DB PL/SQL 개발/유지보수',
         ]
       }
     ]
