@@ -49,7 +49,8 @@ module.exports = {
           '- <a href="https://github.com/DrakedogX/JoJoStagram">https://github.com/DrakedogX/JoJoStagram</a>',
           '- 코틀린 및 오픈소스 라이브러리를 공부하고자 만든 인스타그램 클론 안드로이드 앱 토이 프로젝트',
           '- Kotlin / AndroidX 지원',
-          '- Firebase, Glide, Okhttp, Gson, Recycler View, Material Design, FaceBook SDK, Google Play-Services, Twitter SDK, '
+          '- Firebase, Glide, Okhttp, Gson, Recycler View, Material Design, Facebook SDK, Google Play-Services, Twitter SDK',
+          '- 여가시간이 될 때 마다 지속적으로 조금씩 개선해나갈 예정'
         ]
       }
     ],
