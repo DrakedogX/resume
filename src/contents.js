@@ -30,13 +30,23 @@ module.exports = {
         'contents': ['']
       },
       {
-        'date': 'DBMS',
+        'date': 'DB',
         'title': 'Oracle, MySQL, SQLite',
         'contents': ['']
       },
       {
         'date': 'Library',
-        'title': 'ConstraintLayout / ButterKnife / ViewPagerIndicator / Gson / OkHttp / Retrofit / Glide / Firebase',
+        'title': 'ConstraintLayout / RecyclerView / ButterKnife / ViewPagerIndicator / Gson / Retrofit / OkHttp / Glide / Firebase / SNS SDK(Facebook, Twitter, Google 등)',
+        'contents': ['']
+      },
+      {
+        'date': 'Communication',
+        'title': '협업을 중시한 원활한 의사소통 통한 문제해결 능력',
+        'contents': ['']
+      },
+      {
+        'date': 'Strength',
+        'title': '러닝커브(LearningCurve)가 가파르고 배움, 성장에 대한 의지가 강함',
         'contents': ['']
       }
     ],
@@ -49,7 +59,7 @@ module.exports = {
           '- <a href="https://github.com/DrakedogX/JoJoStagram">https://github.com/DrakedogX/JoJoStagram</a>',
           '- 코틀린 및 오픈소스 라이브러리를 공부하고자 만든 인스타그램 클론 안드로이드 앱 토이 프로젝트',
           '- Kotlin / AndroidX 지원',
-          '- Firebase, Glide, Okhttp, Gson, Recycler View, Material Design, Facebook SDK, Google Play-Services, Twitter SDK',
+          '- Firebase, Glide, Okhttp, Gson, RecyclerView, Material Design, Facebook SDK, Google Play-Services, Twitter SDK',
           '- 여가시간이 될 때 마다 지속적으로 조금씩 개선해나갈 예정'
         ]
       }
