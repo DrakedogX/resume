@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         'date': 'Communication',
-        'title': '협업을 중시한 원활한 의사소통 통한 문제해결 능력',
+        'title': '원활한 의사소통을 기반으로 협업을 중시한 문제해결 능력',
         'contents': ['']
       },
       {
